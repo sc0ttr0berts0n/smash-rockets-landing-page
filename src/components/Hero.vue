@@ -1,7 +1,7 @@
 <template>
     <div id="hero" class="hero-wrapper">
         <div class="text-container">
-            <h1 class="headline">Smash Rockets</h1>
+            <logo></logo>
             <h2 class="subheadline">A physics-driven, 2d platform brawler</h2>
             <a href="http://shitty-rockets-dev.herokuapp.com/" class="button">Play the Demo</a>
         </div>
@@ -10,12 +10,13 @@
 </template>
 
 <script>
-import RocketTick from './RocketTick.vue'
+import RocketTick from './RocketTick.vue';
+import Logo from './Logo.vue';
 
 export default {
   name: 'Hero',
   components: {
-      RocketTick
+      RocketTick, Logo
   }
 }
 </script>
@@ -24,7 +25,7 @@ export default {
 .hero-wrapper {
     position: realtive;
     z-index: 10;
-    margin: 5rem 2.5rem 0;
+    margin: 2rem 2.5rem 0;
     display: flex;
     width: 1000px;
     justify-content: space-between;
@@ -36,7 +37,7 @@ export default {
 }
 .subheadline {
     margin-top: 0.25rem;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
 }
 .button {
@@ -46,8 +47,9 @@ export default {
     font-size: 24px;
     font-weight: 700;
     background-color: #de9316;
+    border-bottom: 5px solid #815405;
     line-height: 48px;
-    padding: 0 20px 16px;
+    padding: 0 20px;
     text-decoration: none;
     color: #271926;
     border-radius: 12px;
@@ -56,7 +58,7 @@ export default {
 .button:hover {
     background-color: #efa427;
 }
-.button::after {
+/* .button::after {
     display: block;
     content: 'prealpha';
     position: absolute;
@@ -69,5 +71,5 @@ export default {
     padding-top: 0.25rem;
     transform: skew(-10deg);
     background-color: rgba(0, 0, 0, 0.25);
-}
+} */
 </style>
