@@ -19,12 +19,9 @@ export default {
 
 <style>
 .rocket-mine-wrapper {
-    position: absolute;
-    top: 275px;
-    left: 5%;
     width: 90%;
     opacity: 0;
-    animation: fly-through 4800ms ease-in-out infinite;
+    /* animation: fly-through 4800ms ease-in-out infinite; */
 }
 .rocket-body {
     width: 3rem;
@@ -38,7 +35,7 @@ export default {
     transform-origin: center top;
     left: calc(1.5rem - 13px);
     top: 36px;
-    animation: thrustY 200ms infinite ease-in-out;
+    /* animation: thrustY 200ms infinite ease-in-out; */
 }
 .rocket-mine-xthrust {
     position: absolute;
