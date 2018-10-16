@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <hero></hero>
-    <platform :top="platformTop"></platform>
+    <topbar></topbar>
+    <div class="content">
+        <hero></hero>
+        <platform :top="platformTop"></platform>
+    </div>
   </div>
 </template>
 
 <script>
-import Hero from './components/Hero.vue'
-import Platform from './components/Platform.vue'
+import Topbar from './components/Topbar.vue';
+import Hero from './components/Hero.vue';
+import Platform from './components/Platform.vue';
 
 export default {
   name: 'app',
   components: {
-    Hero, Platform
+    Topbar, Hero, Platform
   },
   data() {
     return {
@@ -138,9 +142,13 @@ body {
 }
 #app {
     position: relative;
-    max-width: 1200px;
-    width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.content {
+    max-width: 1200px;
+    width: 100%;
 }
 </style>

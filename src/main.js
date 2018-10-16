@@ -1,8 +1,8 @@
 import Vue from 'vue';
-import LandingPage from './LandingPage.vue';
+import App from './App.vue';
 
 Vue.config.productionTip = false;
 
 new Vue({
-    render: h => h(LandingPage)
+    render: h => h(App)
 }).$mount('#app');

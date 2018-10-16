@@ -3,7 +3,7 @@
         <div class="text-container">
             <logo></logo>
             <h2 class="subheadline">A physics-driven, 2d platform brawler</h2>
-            <a href="http://shitty-rockets-dev.herokuapp.com/" class="button">Play the Demo</a>
+            <a href="http://play.smashrockets.com/" class="button">Play the Demo</a>
         </div>
         <rocketTick></rocketTick>
     </div>
@@ -11,12 +11,11 @@
 
 <script>
 import RocketTick from './RocketTick.vue';
-import Logo from './Logo.vue';
 
 export default {
   name: 'Hero',
   components: {
-      RocketTick, Logo
+      RocketTick
   }
 }
 </script>
@@ -27,7 +26,7 @@ export default {
     z-index: 10;
     margin: 2rem 2.5rem 0;
     display: flex;
-    width: 1000px;
+    flex-basis: 1000px;
     justify-content: space-between;
 }
 .headline {
@@ -51,25 +50,15 @@ export default {
     line-height: 48px;
     padding: 0 20px;
     text-decoration: none;
-    color: #271926;
+    /* color: #271926; */
+    color: #381c26;
     border-radius: 12px;
-    transition: 200ms;
+    /* text-shadow: 0px 1px 2px rgba(216, 216, 216, 0.5); */
+    transition: 100ms;
 }
 .button:hover {
     background-color: #efa427;
+    border-bottom-width: 3px;
+    transform: translateY(2px);
 }
-/* .button::after {
-    display: block;
-    content: 'prealpha';
-    position: absolute;
-    bottom: -4px;
-    left: 0px;
-    font-weight: 400;
-    font-size: 16px;
-    opacity: 0.7;
-    width: 100%;
-    padding-top: 0.25rem;
-    transform: skew(-10deg);
-    background-color: rgba(0, 0, 0, 0.25);
-} */
 </style>
