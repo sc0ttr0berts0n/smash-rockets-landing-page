@@ -14,30 +14,25 @@ import Hero from './components/Hero.vue';
 import Platform from './components/Platform.vue';
 
 export default {
-  name: 'app',
-  components: {
-    Topbar, Hero, Platform
-  },
-  data() {
-    return {
-        platformTop: 0
+    name: 'app',
+    components: {
+        Topbar, Hero, Platform
+    },
+    metaInfo: {
+      title: 'Smash Rockets', // set a title
+      htmlAttrs: {
+        lang: 'en',
+        amp: undefined // "amp" has no value
+      },
+      meta: [
+          {name: 'description', content: 'An in development, physics-driven, 2d platform brawler. Play the Demo Today!'}
+      ]
     }
-  },
-  methods: {
-    findHeroBottom: function() {
-        const heroOffset = -70;
-        const heroBottom = document.getElementById('hero').getBoundingClientRect().bottom;
-        this.platformTop = heroBottom + heroOffset;
-    }
-  },
-  mounted() {
-      this.findHeroBottom();
-  }
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 html,
 body,
 div,
@@ -128,7 +123,7 @@ video {
 }
 html {
     background: linear-gradient(170deg, #592f3d 30%, #b24a4a 75%, #f5985b 90%);
-    font-family: 'Exo 2', helvetica, arial, sans-serif;
+    font-family: 'Roboto', helvetica, arial, sans-serif;
     color: #e6dbe1;
     position: absolute;
     top: 0;
@@ -150,5 +145,9 @@ body {
 .content {
     max-width: 1200px;
     width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 </style>

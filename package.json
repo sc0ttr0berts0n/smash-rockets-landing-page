@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "animejs": "^2.2.0",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vue-meta": "^1.5.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.4",
