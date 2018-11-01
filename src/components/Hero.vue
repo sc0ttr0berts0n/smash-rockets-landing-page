@@ -7,13 +7,12 @@
 </template>
 
 <script>
-import RocketTick from './RocketTick.vue';
 import Logo from './Logo.vue';
 
 export default {
   name: 'Hero',
   components: {
-      RocketTick, Logo
+      Logo
   }
 }
 </script>

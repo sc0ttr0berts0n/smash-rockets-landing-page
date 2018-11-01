@@ -51,7 +51,7 @@ export default {
 }
 </script>
 
-<style scope>
+<style>
 .well {
     max-width: 600px;
 }

@@ -1,7 +1,6 @@
 <template>
     <div id="platform" class="wrapper">
         <img ref="platformImg" src="../assets/platform.png" alt="The games platform" class="platform">
-        <rocketMine></rocketMine>
     </div>
 </template>
 

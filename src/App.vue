@@ -3,9 +3,10 @@
     <topbar></topbar>
     <div class="content">
         <hero></hero>
-        <platform :top="platformTop"></platform>
+        <platform></platform>
         <well></well>
     </div>
+    <BottomBar></BottomBar>
   </div>
 </template>
 
@@ -14,11 +15,12 @@ import Topbar from './components/Topbar.vue';
 import Hero from './components/Hero.vue';
 import Platform from './components/Platform.vue';
 import Well from './components/Well.vue';
+import BottomBar from './components/BottomBar.vue';
 
 export default {
     name: 'app',
     components: {
-        Topbar, Hero, Platform, Well
+        Topbar, Hero, Platform, Well, BottomBar
     },
     metaInfo: {
       title: 'Smash Rockets 💥🚀 ', // set a title
@@ -135,7 +137,6 @@ html {
 body {
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
 }
 #app {
     position: relative;
