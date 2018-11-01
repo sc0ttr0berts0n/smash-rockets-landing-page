@@ -2,7 +2,7 @@
     <div class="well">
         <section class="panel">
             <h2>Smash Rockets is in pre-alpha</h2>
-            <p>We expect bugs. Bugs are good. Google Chrome is where we work, and is our primary target browser right now. We're actively putting this game together, and occasionally, stuff is going to break. Let us know on <a href="https://discordapp.com/invite/tzqdP69" target="_blank">Discord</a> or <a href="https://twitter.com/smashrockets" target="_blank">Twitter</a> if you see anything notable. We love to hear from you guys and your feedback is what keeps us moving forward.</p>
+            <p>We expect bugs. Bugs are good. Mobile Support is not in yet. Google Chrome is where we work, and is our primary target browser right now. We're actively putting this game together, and occasionally, stuff is going to break. Let us know on <a href="https://discordapp.com/invite/tzqdP69" target="_blank">Discord</a> or <a href="https://twitter.com/smashrockets" target="_blank">Twitter</a> if you see anything notable. We love to hear from you guys and your feedback is what keeps us moving forward.</p>
         </section>
         <section class="panel">
             <h2>We are going to Gameacon in NYC!</h2>
