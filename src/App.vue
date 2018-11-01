@@ -4,6 +4,7 @@
     <div class="content">
         <hero></hero>
         <platform :top="platformTop"></platform>
+        <well></well>
     </div>
   </div>
 </template>
@@ -12,20 +13,24 @@
 import Topbar from './components/Topbar.vue';
 import Hero from './components/Hero.vue';
 import Platform from './components/Platform.vue';
+import Well from './components/Well.vue';
 
 export default {
     name: 'app',
     components: {
-        Topbar, Hero, Platform
+        Topbar, Hero, Platform, Well
     },
     metaInfo: {
-      title: 'Smash Rockets', // set a title
+      title: 'Smash Rockets 💥🚀 ', // set a title
       htmlAttrs: {
         lang: 'en',
         amp: undefined // "amp" has no value
       },
       meta: [
-          {name: 'description', content: 'An in development, physics-driven, 2d platform brawler. Play the Demo Today!'}
+        {name: 'description', content: 'An in development, physics-driven, 2d platform brawler. Play the Demo Today!'}
+      ],
+      link: [
+        { rel: 'favicon', href: './favicon.ico' }
       ]
     }
 }
@@ -123,17 +128,14 @@ video {
 }
 html {
     background: linear-gradient(170deg, #592f3d 30%, #b24a4a 75%, #f5985b 90%);
+    background-attachment: fixed;
     font-family: 'Roboto', helvetica, arial, sans-serif;
     color: #e6dbe1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 body {
     display: flex;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 #app {
     position: relative;

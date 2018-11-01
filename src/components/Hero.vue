@@ -2,7 +2,7 @@
     <div id="hero" class="hero-wrapper">
         <logo></logo>
         <h2 class="subheadline">A physics-driven, 2d platform brawler</h2>
-        <a href="http://play.smashrockets.com/" class="button">Play the Demo</a>
+        <a href="http://dev.smashrockets.com/" class="button">Play the Demo</a>
     </div>
 </template>
 
