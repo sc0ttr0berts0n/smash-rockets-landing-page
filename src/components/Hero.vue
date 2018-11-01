@@ -2,7 +2,7 @@
     <div id="hero" class="hero-wrapper">
         <logo></logo>
         <h2 class="subheadline">A physics-driven, 2d platform brawler</h2>
-        <a href="http://dev.smashrockets.com/" class="button">Play the Demo</a>
+        <a href="http://dev.smashrockets.com/" class="button"><span class="button-text">Play the Demo</span></a>
     </div>
 </template>
 
@@ -54,11 +54,23 @@ export default {
     border-radius: 12px;
     transition: 100ms;
     text-align: center;
+    transform: skew(-20deg);
 }
 .button:hover {
     background-color: #efa427;
     border-bottom-width: 3px;
-    transform: translateY(2px);
+    transform: skew(-20deg) translateY(2px);
     margin-bottom: 2px;
+}
+.button:active {
+    background-color: #faca77;
+    border-bottom-width: 1px;
+    transform: skew(-20deg) translateY(4px);
+    margin-bottom: 4px;
+}
+
+.button-text {
+    display: inline-block;
+    transform: skew(20deg);
 }
 </style>
