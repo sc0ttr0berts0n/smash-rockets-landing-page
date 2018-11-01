@@ -16,6 +16,7 @@ import Hero from './components/Hero.vue';
 import Platform from './components/Platform.vue';
 import Well from './components/Well.vue';
 import BottomBar from './components/BottomBar.vue';
+require('./assets/css/reset.css');
 
 export default {
     name: 'app',
@@ -38,103 +39,15 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
 html {
     background: linear-gradient(170deg, #592f3d 30%, #b24a4a 75%, #f5985b 90%);
     background-attachment: fixed;
-    font-family: 'Roboto', helvetica, arial, sans-serif;
     color: #e6dbe1;
 }
 body {
+    font-family: 'Roboto', helvetica, arial, sans-serif;
     display: flex;
     justify-content: center;
 }

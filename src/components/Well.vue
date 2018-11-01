@@ -51,7 +51,7 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
 .well {
     max-width: 600px;
 }
@@ -64,35 +64,35 @@ export default {
     border-bottom: 4px solid #c3b5be;
     border-top-left-radius: 4px;
 }
-h2 {
+.panel h2 {
     color: #de9316;
     font-size: 1.75rem;
 }
-h3 {
+.panel h3 {
     margin-top: 1.75rem;
     color: #de9316;
     font-size: 1.25rem;
 }
-h4 {
+.panel h4 {
     font-size: 1.125rem;
     margin-top: 1.25rem;
     font-weight: 700;
 }
-ul {
+.panel ul {
     list-style-type: square;
     margin-left: 1.25rem;
 }
-code {
+.panel code {
     display: inline-block;
     font-family: monospace;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 0.25rem;
     padding: 0.0625rem;
 }
-code::before {
+.panel code::before {
     content: '\00a0';
 }
-code::after {
+.panel code::after {
     content: '\00a0';
 }
 .panel img {
@@ -102,11 +102,11 @@ code::after {
     border-radius: 0.5rem;
     border-bottom: 2px solid #de9316;
 }
-a {
+.panel a {
     color: #de9316;
 }
-p,
-li {
+.panel p,
+.panel li {
     font-size: 1rem;
     line-height: 1.8;
     margin-top: 0.5rem;
