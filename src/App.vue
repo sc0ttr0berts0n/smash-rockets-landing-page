@@ -16,6 +16,7 @@ import Hero from './components/Hero.vue';
 import Platform from './components/Platform.vue';
 import Well from './components/Well.vue';
 import BottomBar from './components/BottomBar.vue';
+import { page } from 'vue-analytics';
 require('./assets/css/reset.css');
 
 export default {
@@ -30,11 +31,40 @@ export default {
         amp: undefined // "amp" has no value
       },
       meta: [
-        {name: 'description', content: 'An in development, physics-driven, 2d platform brawler. Play the Demo Today!'}
+        {
+            name: 'description', 
+            content: 'An in development, physics-driven, 2d platform brawler. Play the Demo Today!'
+        },
+        {
+            name: 'twitter:site',
+            content: '@smashrockets'
+        },
+        {
+            property: 'og:url',
+            content: 'https://play.smashrockets.com'
+        },
+        {
+            property: 'og:title',
+            content: 'Smash Rockets'
+        },
+        {
+            property: 'og:description',
+            content:
+                'An in development, physics-driven, 2d platform brawler'
+        },
+        {
+            property: 'og:image',
+            content: 'https://smashrockets.com/assets/og-banner.png'
+        }
       ],
       link: [
         { rel: 'favicon', href: './favicon.ico' }
       ]
+    },
+    methods: {
+        track() {
+            page('/');
+        }
     }
 }
 </script>
