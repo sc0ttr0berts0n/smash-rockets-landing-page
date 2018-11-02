@@ -35,7 +35,7 @@
             <p>Each player pursues one other player, and each player has one player pursuing them. Depending on the number of players, you will not necessarily be chasing the person chasing you.</p>
 
             <h4>Collisions</h4>
-            <p>To defeat your opponent, you must knock them off the bottom of the screen. When two players collide, the faster player will send the slower player rocketing off the platform. So build up momentum with the <code class="code">Fly at Opponent</code> Key and smash them off the platform.</p>
+            <p>To defeat your opponent, you must knock them off the bottom of the screen. When two players collide, the faster player will send the slower player rocketing off the platform. So build up momentum with the <code class="code">Fly at Opponent</code> Key and smash them off the platform!</p>
         </section>
         <section class="panel">
             <h2>Meet the Team</h2>
