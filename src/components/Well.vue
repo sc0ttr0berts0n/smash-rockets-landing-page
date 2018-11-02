@@ -11,7 +11,7 @@
         <section class="panel">
             <h2>How to Play</h2>
             <h3>Gameplay</h3>
-            <p>Your goal Shitty Rockets is to force your opponent to fall off the bottom of the screen and be the last man standing on the platform</p>
+            <p>Your goal Smash Rockets is to force your opponent to fall off the bottom of the screen and be the last man standing on the platform</p>
 
             <h3>Controls</h3>
             <ul>
