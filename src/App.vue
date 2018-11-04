@@ -41,7 +41,7 @@ export default {
         },
         {
             property: 'og:url',
-            content: 'https://play.smashrockets.com'
+            content: 'https://www.smashrockets.com'
         },
         {
             property: 'og:title',
