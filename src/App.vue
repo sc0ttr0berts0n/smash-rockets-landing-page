@@ -5,6 +5,7 @@
         <hero></hero>
         <platform></platform>
         <well></well>
+        <Discord></Discord>
     </div>
     <BottomBar></BottomBar>
   </div>
@@ -15,13 +16,14 @@ import Topbar from './components/Topbar.vue';
 import Hero from './components/Hero.vue';
 import Platform from './components/Platform.vue';
 import Well from './components/Well.vue';
+import Discord from './components/Discord.vue';
 import BottomBar from './components/BottomBar.vue';
 require('./assets/css/reset.css');
 
 export default {
     name: 'app',
     components: {
-        Topbar, Hero, Platform, Well, BottomBar
+        Topbar, Hero, Platform, Well, BottomBar, Discord
     },
     metaInfo: {
       title: 'Smash Rockets 💥🚀 ', // set a title

@@ -64,6 +64,9 @@ export default {
     border-bottom: 4px solid #c3b5be;
     border-top-left-radius: 4px;
 }
+.panel:first-of-type {
+    margin-top: 0;
+}
 .panel h2 {
     color: #de9316;
     font-size: 1.75rem;
