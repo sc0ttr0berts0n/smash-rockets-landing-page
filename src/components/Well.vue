@@ -2,7 +2,7 @@
     <div class="well">
         <section class="panel">
             <h2>Smash Rockets is in pre-alpha</h2>
-            <p>We expect bugs. Bugs are good. Mobile Support is not in yet. Google Chrome is where we work, and is our primary target browser right now. We're actively putting this game together, and occasionally, stuff is going to break. Let us know on <a href="https://discordapp.com/invite/tzqdP69" target="_blank">Discord</a> or <a href="https://twitter.com/smashrockets" target="_blank">Twitter</a> if you see anything notable. We love to hear from you guys and your feedback is what keeps us moving forward.</p>
+            <p>We expect bugs. Bugs are good. Mobile support is not in yet. Google Chrome is where we work, and is our primary target browser right now. We're actively putting this game together, and occasionally, stuff is going to break. Let us know on <a href="https://discordapp.com/invite/tzqdP69" target="_blank">Discord</a> or <a href="https://twitter.com/smashrockets" target="_blank">Twitter</a> if you see anything notable. We love to hear from you guys and your feedback is what keeps us moving forward.</p>
         </section>
         <section class="panel">
             <h2>We are going to Gameacon in NYC!</h2>
@@ -11,7 +11,7 @@
         <section class="panel">
             <h2>How to Play</h2>
             <h3>Gameplay</h3>
-            <p>Your goal Shitty Rockets is to force your opponent to fall off the bottom of the screen and be the last man standing on the platform</p>
+            <p>Your goal in Smash Rockets is to force your opponent to fall off the bottom of the screen and be the last man standing on the platform.</p>
 
             <h3>Controls</h3>
             <ul>
@@ -21,11 +21,11 @@
 
             <h3>The Attractor</h3>
             <img src="https://imgur.com/ZJjCBAo.png">
-            <p>To keep you rocket from falling off the platform, you can use the <code class="code">Fly at Attractor</code> key. Doing so draws you towards the attractor overhead.</p>
+            <p>To keep your rocket from falling off the platform, you can use the <code class="code">Fly at Attractor</code> key. Doing so draws you towards the attractor overhead.</p>
 
             <h3>The Platform</h3>
             <img src="https://imgur.com/ZV5V7y5.png" width="600">
-            <p>The platform is all you have standing between yourself and the bottomless pit. Be careful to keep yourself on its top side, once you fall below, it is tough to get back up.</p>
+            <p>The platform is all you have standing between yourself and the bottomless pit. Try to stay on top, once you fall below, it is tough to get back up.</p>
 
             <h3>The Opponent</h3>
             <img src="https://imgur.com/VaoMQLa.png">
@@ -35,7 +35,7 @@
             <p>Each player pursues one other player, and each player has one player pursuing them. Depending on the number of players, you will not necessarily be chasing the person chasing you.</p>
 
             <h4>Collisions</h4>
-            <p>To defeat your opponent, you must knock him off the bottom of the screen. When two players collide, the faster player will send the slower player rocketing off the platform. So build up momentum with the <code class="code">Fly at Opponent</code> Key and smash them off the platform.</p>
+            <p>To defeat your opponent, you must knock them off the bottom of the screen. When two players collide, the faster player will send the slower player rocketing off the platform. So build up momentum with the <code class="code">Fly at Opponent</code> Key and smash them off the platform!</p>
         </section>
         <section class="panel">
             <h2>Meet the Team</h2>

@@ -10,6 +10,7 @@
   "dependencies": {
     "animejs": "^2.2.0",
     "vue": "^2.5.17",
+    "vue-analytics": "^5.16.0",
     "vue-meta": "^1.5.5"
   },
   "devDependencies": {
